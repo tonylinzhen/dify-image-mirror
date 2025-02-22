@@ -3,7 +3,7 @@ services:
   # API service
   api:
     # image: langgenius/dify-api:0.6.11
-    image: registry.cn-hangzhou.aliyuncs.com/your-acr-namespace/dify-api:latest
+    image: registry.cn-hangzhou.aliyuncs.com/ewrweklfjerl_234/dify-api:latest
     restart: always
     environment:
       # Startup mode, 'api' starts the API server.
